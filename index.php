@@ -14,7 +14,7 @@ Discord Lookup
 <script type="text/javascript">
 function lookup()
 {
-	var userid =$('#input').val();
+	var userid =$('#input').val(); // user's id.
 	
     $.ajax({
         type:'GET',
@@ -28,4 +28,5 @@ function lookup()
     }
 
 } ) }
+
 </script>
